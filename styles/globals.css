@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .lock-number {
+        @apply flex flex-col items-center justify-center rounded-full bg-gray-700 bg-opacity-30 text-white w-14 h-14   cursor-pointer active:bg-gray-300 active:bg-opacity-40 transition-all duration-200 select-none
+    }
+
+    .lock-number-first {
+        @apply flex justify-center items-center bg-gray-700 bg-opacity-30 w-14 h-14 rounded-full text-xl text-white font-semibold cursor-pointer active:bg-gray-300 active:bg-opacity-40 transition-all duration-200 select-none
+    }
+
+    .call-number-first {
+        @apply flex justify-center items-center bg-gray-700 bg-opacity-30 w-16 h-16 rounded-full text-xl text-[#212220] font-semibold cursor-pointer active:bg-gray-300 active:bg-opacity-40 transition-all duration-200 select-none
+    }
+
+    .call-number {
+        @apply flex flex-col items-center justify-center rounded-full bg-gray-700 bg-opacity-30 text-[#212220] w-16 h-16 cursor-pointer active:bg-gray-300 active:bg-opacity-40 transition-all duration-200 select-none
+    }
+}
