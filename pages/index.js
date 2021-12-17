@@ -13,11 +13,11 @@ export default function Home() {
       </Head>
 
 
-    <div className="hidden lg:block">
+    <div className="hidden xl:block">
        <Desktop />
     </div>
 
-    <div className="hidden sm:block lg:hidden">
+    <div className="hidden md:block xl:hidden">
       <Tablet />
     </div>
 

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/router";
-import { callData } from "../../data/callData";
+import { callData } from "../../../data/callData";
 import moment from "moment";
 import { gsap, Expo, Power4 } from "gsap";
 import { AiFillMinusCircle } from "react-icons/ai";
@@ -152,14 +152,14 @@ const CalList = () => {
               <h1 className="text-xl font-bold py-2">Recents</h1>
             </div>
 
-            <div ref={contactRef} className="flex-1 overflow-y-scroll z-0">
+            <div ref={contactRef} className="">
               {callData.map((item, index) => {
                 const Icon = icons[index];
                 return (
-                  <div className="py-3 flex items-center border-t">
+                  <div className="py-3 flex border-t">
                     <Icon className="text-2xl text-[#ff3a31]" />
 
-                    <div className="pl-8 flex-1">
+                    <div className="pl-4 flex-1">
                       <p className="text-lg font-medium">{item.username}</p>
                       <p className="text-base font-light text-gray-500">
                         {item.phone}
@@ -200,7 +200,7 @@ const CalList = () => {
             <span className="text-xs">Favorites</span>
           </div>
           <div
-            onClick={() => router.push("/mobile/call-list")}
+            onClick={() => router.push("/mobile/call/call-list")}
             className="flex flex-col items-center text-blue-700"
           >
             <svg
@@ -218,7 +218,7 @@ const CalList = () => {
             <span className="text-xs">Recents</span>
           </div>
           <div
-            onClick={() => router.push("/mobile/contact")}
+            onClick={() => router.push("/mobile/call/contact")}
             className="flex flex-col items-center text-gray-400"
           >
             <svg

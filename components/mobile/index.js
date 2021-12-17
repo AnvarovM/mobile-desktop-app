@@ -35,7 +35,7 @@ const Mobile = () => {
 
   return (
     <div>
-      <div className="grid min-h-screen bg-black place-items-center">
+      <div className="grid min-h-screen place-items-center">
         <div className="mx-auto h-full w-full bg-black rounded-[60px] border-[14px] border-black relative overflow-hidden ring ring-purple-50 shadow-xl">
           <img
             ref={mobileImg}

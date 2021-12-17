@@ -128,7 +128,7 @@ const call = () => {
             <span className="text-xs">Favorites</span>
           </div>
           <div
-            onClick={() => router.push("/mobile/call-list")}
+            onClick={() => router.push("/mobile/call/call-list")}
             className="flex flex-col items-center text-gray-400"
           >
             <svg
@@ -146,7 +146,7 @@ const call = () => {
             <span className="text-xs">Recents</span>
           </div>
           <div
-            onClick={() => router.push("/mobile/contact")}
+            onClick={() => router.push("/mobile//call/contact")}
             className="flex flex-col items-center text-gray-400"
           >
             <svg

@@ -1,5 +1,5 @@
 import { useRef, useEffect,useState } from 'react'
-import { contactData } from "../../data/contactData";
+import { contactData } from "../../../data/contactData";
 import { useRouter } from 'next/router'
 import { gsap, Expo } from 'gsap'
 import moment from "moment";
@@ -110,7 +110,7 @@ const CalList = () => {
             <span className="text-xs">Favorites</span>
           </div>
           <div
-            onClick={() => router.push("/mobile/call-list")}
+            onClick={() => router.push("/mobile/call/call-list")}
             className="flex flex-col items-center text-gray-400"
           >
             <svg

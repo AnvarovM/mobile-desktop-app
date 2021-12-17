@@ -2,9 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import moment from "moment";
 import { useRouter } from "next/router";
 import { gsap, Expo, Elastic } from "gsap";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import {
   IoIosCellular,
