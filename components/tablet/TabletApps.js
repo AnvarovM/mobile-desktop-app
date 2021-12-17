@@ -2,7 +2,7 @@ import React from 'react'
 
 const TabletApps = () => {
     return (
-        <div className='ml-16'>
+        <div className=''>
             {/* app list------------ */}
               <div className='flex mx-auto flex-wrap small:gap-6 xs:gap-8 md:gap-10'>
                <div className='flex flex-col items-center'>

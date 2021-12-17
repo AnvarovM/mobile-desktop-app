@@ -5,6 +5,7 @@ import moment from "moment";
 import { useRouter } from "next/router";
 import Weather from "./Weather";
 import TabletApps from "./TabletApps";
+import PlayerApp from "./Player";
 
 const Mobile = () => {
   const mobileRef = useRef(null);
@@ -100,12 +101,15 @@ const Mobile = () => {
 
             <div className="flex p-10">
                 <Weather />
-                <TabletApps />
+                <div className="flex flex-col ml-16">
+                  <TabletApps />
+                  <PlayerApp />
+                </div>
             </div>
           </div>
 
           {/* tablet bottom  */}
-          <div className="absolute bottom-10 left-72 right-72 mx-auto">
+          <div className="absolute bottom-10 right-0 left-11 mx-auto">
               <div className="backdrop-blur-sm bg-white/30 max-w-2xl h-20 rounded-xl">
               <div className='flex items-center justify-between mt-2 mx-10'>
                    <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
