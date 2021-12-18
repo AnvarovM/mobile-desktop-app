@@ -31,7 +31,7 @@ function Header() {
 
         {/* middle */}
         <div className="max-w-xs">
-          <div className="relative mt-1 p-3 rounded-md">
+          <div className="relative mt-1 p-4 rounded-md">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
               <FaSearch className="h-5 w-5 cursor-pointer text-gray-500" />
             </div>

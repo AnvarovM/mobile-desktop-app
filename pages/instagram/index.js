@@ -1,5 +1,5 @@
 import React from 'react'
-import Instagram from '../components/apps/instagram'
+import Instagram from '../../components/apps/instagram'
 
 const instagram = () => {
     return (

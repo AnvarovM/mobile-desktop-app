@@ -7,7 +7,7 @@ function Stories() {
 
 
   useEffect(() => {
-    const suggestion = [...Array(7)].map((_, i) => ({
+    const suggestion = [...Array(20 )].map((_, i) => ({
       ...faker.helpers.contextualCard(),
       id: i,
     }));
@@ -15,9 +15,9 @@ function Stories() {
     setSaggestion(suggestion)
   }, []);
 
-  return <div  className="flex space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm">
+  return <div  className="flex space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-x-auto scrollbar-thin scrollbar-thumb-black small:w-max w-screen">
     {suggestion.map(profile => (
-        <div className='overflow-x-scroll scrollbar-thin scrollbar-thumb-black'>
+        <div className=''>
           <Story key={profile.id} img={profile.avatar} username={profile.username} />
         </div>
     ))}
