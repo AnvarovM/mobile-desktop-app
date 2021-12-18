@@ -4,6 +4,7 @@ import {
     IoIosPlay,
     IoIosSkipForward,
     IoIosSkipBackward,
+    IoIosPause,
   } from "react-icons/io";
 
 const Player = ({ song, nextSong, setPrevSong, prevSong }) => {
@@ -29,13 +30,11 @@ const Player = ({ song, nextSong, setPrevSong, prevSong }) => {
                 <p className='text-xl font-light'>{song[nextSong].title}</p>
                 <div className="flex items-center justify-center text-2x my-2">
                         <IoIosSkipBackward  />
-                        <IoIosPlay onClick={() => setIsPlaying(!isPlaying)} className="text-4xl mx-2" />
+                        <div onClick={() => setIsPlaying(!isPlaying)}>
+                        {isPlaying ? <IoIosPause className="text-4xl mx-2" /> : <IoIosPlay className="text-4xl mx-2" />}
+                        </div>
                         <IoIosSkipForward />
                       </div>
-                
-                <div>
-                  <p className='text-[14px]'> <strong>Next up:</strong> {song[nextSong].title} by {song[nextSong].artist} </p>  
-                </div>
             </div>
         </div>
     )

@@ -11,8 +11,8 @@ const PlayerApp = () => {
             song: 'http://soundbible.com/mp3/45min_april_rainstorm-mike-koenig.mp3'
         },
         {
-            title: 'Rain Storm',
-            artist: 'Unknown',
+            title: 'It is raining in the forest',
+            artist: 'Rain Storm',
             img: './img/apple-music.png',
             song: 'http://soundbible.com/mp3/Upper Cut-soundBible.com-1272257235.mp3'
         },
