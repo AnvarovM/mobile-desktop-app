@@ -1,3 +1,36 @@
 * {
     overflow: hidden;
 }
+
+@media screen and (max-height: 900px) {
+    .calendar {
+        display: none;
+    }
+    .tablet-date {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 876px) {
+    .calendar {
+        display: none;
+    }
+    .tablet-date {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and ( max-height: 700px) {
+    .tablet-date {
+        margin-top: 1rem;
+    }
+
+    .tablet-date .tablet-date-time {
+        font-size: 3rem;
+    }
+
+    .tablet-bottom-apps {
+        position: absolute;
+        bottom: 1rem;
+    }
+}

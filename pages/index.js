@@ -17,7 +17,7 @@ export default function Home() {
        <Desktop />
     </div>
 
-    <div className="hidden md:block xl:hidden">
+    <div className="hidden sm:block lg:hidden">
       <Tablet />
     </div>
 

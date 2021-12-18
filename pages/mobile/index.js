@@ -242,9 +242,9 @@ const MobileApps = () => {
               />
             </div>
             <div className="relative w-12 cursor-pointer">
-              <img
+              <img onClick={() => router.push('/mobile/chat')}
                 className=" rounded-xl"
-                src="https://www.freepnglogos.com/uploads/telegram-logo-4.png"
+                src="/img/sms.png"
                 alt=""
               />
               <span className="absolute top-0 right-0 h-5 w-5 text-white flex items-center justify-center text-xs rounded-lg bg-[#f72e22]">

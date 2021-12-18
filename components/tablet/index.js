@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import Weather from "./Weather";
 import TabletApps from "./TabletApps";
 import PlayerApp from "./Player";
+import Calendar from "./Calendar";
 
 const Mobile = () => {
   const mobileRef = useRef(null);
@@ -47,12 +48,12 @@ const Mobile = () => {
           />
           <div className="relative">
             {/* <!-- Small icons on top right --> */}
-            <div className="flex items-center justify-between mx-2 text-lg">
+            <div className="flex items-center justify-between mx-2 font-semibold text-2xl">
               <div className="mt-2 ml-3 text-white">{time}</div>
-              <div className="mr-5 mt-2 flex justify-end space-x-1">
+              <div className="mr-5 mt-2 flex justify-end space-x-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-6 text-white"
+                  className="h-8 w-8 text-white"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -60,7 +61,7 @@ const Mobile = () => {
                 </svg>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
+                  className="h-8 w-8 text-white"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -72,7 +73,7 @@ const Mobile = () => {
                 </svg>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white"
+                  className="h-8 w-8 text-white"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -83,35 +84,32 @@ const Mobile = () => {
             </div>
 
             {/* <!-- Date & time --> */}
-            <div className="mt-2 flex flex-col items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 text-white"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path d="M10 2a5 5 0 00-5 5v2a2 2 0 00-2 2v5a2 2 0 002 2h10a2 2 0 002-2v-5a2 2 0 00-2-2H7V7a3 3 0 015.905-.75 1 1 0 001.937-.5A5.002 5.002 0 0010 2z" />
-              </svg>
-              <p className="mt-3 text-white text-6xl font-extralight">
-                {" "}
-                {time}{" "}
+            <div className="tablet-date mt-20 flex flex-col items-center">
+              <p className="tablet-date-time t-3 text-white text-7xl font-extralight">
+                {time}
               </p>
-              <p className="mt-1 text-white text-lg font-light">{date}</p>
+              <p className="mt-1 text-white text-xl font-light">{date}</p>
             </div>
 
-            <div className="flex p-10">
-                <Weather />
-                <div className="flex flex-col ml-16">
-                  <TabletApps />
-                  <PlayerApp />
-                </div>
+            <div className=" p-10">
+              <div className="flex">
+                  <Weather />
+                  <div className="flex flex-col ml-16">
+                    <TabletApps />
+                    <PlayerApp />
+                  </div>
+              </div>
+              
+              <Calendar />
             </div>
           </div>
 
           {/* tablet bottom  */}
-          <div className="absolute bottom-10 right-0 left-11 mx-auto">
-              <div className="backdrop-blur-sm bg-white/30 max-w-2xl h-20 rounded-xl">
-              <div className='flex items-center justify-between mt-2 mx-10'>
+          <div className="tablet-bottom-apps absolute bottom-10 left-0 right-0 mx-10">
+              <div className="backdrop-blur-sm bg-white/30 w-full h-24 rounded-xl">
+              <div className='flex items-center justify-between mt-3 mx-16'>
+                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
+                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
                    <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
                    <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
                    <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
