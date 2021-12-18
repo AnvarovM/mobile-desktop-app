@@ -116,47 +116,47 @@ const MobileApps = () => {
               >
 
                 <div className="flex justify-center mx-auto place-self-center flex-wrap small:gap-6 xs:gap-8 md:gap-10">
-                  <div className="rounded-2xl w-12 xs:w-14 flex flex-col items-center text-white">
+                  <div onClick={() => router.push('/instagram')} className="rounded-2xl w-12 xs:w-14 flex flex-col items-center text-white">
                     <img
                       src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
                       alt=""
                     />
-                    <p className="text-xs mt-1.5">Telegram</p>
+                    <p className="text-xs mt-1.5">Instagram</p>
                   </div>
                   <div className="w-12 xs:w-14 flex flex-col items-center text-white">
                     <img
                       src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
                       alt=""
                     />
-                    <p className="text-xs mt-1.5">Telegram</p>
+                    <p className="text-xs mt-1.5">Instagram</p>
                   </div>
                   <div className="w-12 xs:w-14 flex flex-col items-center text-white">
                     <img
                       src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
                       alt=""
                     />
-                    <p className="text-xs mt-1.5">Telegram</p>
+                    <p className="text-xs mt-1.5">Instagram</p>
                   </div>
                   <div className="w-12 xs:w-14 flex flex-col items-center text-white">
                     <img
                       src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
                       alt=""
                     />
-                    <p className="text-xs mt-1.5">Telegram</p>
+                    <p className="text-xs mt-1.5">Instagram</p>
                   </div>
                   <div className="w-12 xs:w-14 flex flex-col items-center text-white">
                     <img
                       src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
                       alt=""
                     />
-                    <p className="text-xs mt-1.5">Telegram</p>
+                    <p className="text-xs mt-1.5">Instagram</p>
                   </div>
                   <div className="w-12 xs:w-14 flex flex-col items-center text-white">
                     <img
                       src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
                       alt=""
                     />
-                    <p className="text-xs mt-1.5">Telegram</p>
+                    <p className="text-xs mt-1.5">Instagram</p>
                   </div>
                 </div>
 

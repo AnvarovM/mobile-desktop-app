@@ -19,4 +19,16 @@
     .call-number {
         @apply flex flex-col items-center justify-center rounded-full bg-gray-700 bg-opacity-30 text-[#212220] w-16 h-16 cursor-pointer active:bg-gray-300 active:bg-opacity-40 transition-all duration-200 select-none
     }
+
+
+
+    /* instagram */
+    .navBtn {
+        @apply hidden md:inline-flex h-6 w-7 cursor-pointer
+            hover:scale-110 transition-all duration-150 ease-out;
+      }
+    
+      .btn {
+        @apply h-6 w-6 hover:scale-110 cursor-pointer transition-all duration-150 ease-out
+      }
 }

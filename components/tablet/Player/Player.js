@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react'
-import PlayerDetails from './PlayerDetails'
 import {
     IoIosPlay,
     IoIosSkipForward,
@@ -27,7 +26,7 @@ const Player = ({ song, nextSong, setPrevSong, prevSong }) => {
             <div className='flex flex-col items-center justify-center mx-auto'>
                 <audio ref={audioRef} src={song[prevSong].song}></audio>
                 <p className='text-2xl font-medium'>{song[nextSong].artist}</p>
-                <p className='text-xl font-light'>{song[nextSong].title}</p>
+                <p className='text-lg font-light text-center'>{song[nextSong].title}</p>
                 <div className="flex items-center justify-center text-2x my-2">
                         <IoIosSkipBackward  />
                         <div onClick={() => setIsPlaying(!isPlaying)}>

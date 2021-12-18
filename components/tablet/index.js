@@ -94,7 +94,7 @@ const Mobile = () => {
             <div className=" p-10">
               <div className="flex">
                   <Weather />
-                  <div className="flex flex-col ml-16">
+                  <div className="flex flex-col ml-8">
                     <TabletApps />
                     <PlayerApp />
                   </div>
