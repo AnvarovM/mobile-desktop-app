@@ -40,7 +40,7 @@ const Mobile = () => {
   return (
     <div>
       <div className="grid min-h-screen place-items-center">
-        <div className="mx-auto h-full w-full bg-black rounded-[60px] border-[14px] border-black relative overflow-hidden ring ring-purple-50 shadow-xl">
+        <div className="mx-auto h-full w-full bg-black rounded-[50px] border-[14px] border-black relative overflow-hidden ring ring-purple-50 shadow-xl">
           <img
             ref={mobileImg}
             className="absolute inset-0 h-full w-full object-cover"
@@ -108,13 +108,13 @@ const Mobile = () => {
           <div className="tablet-bottom-apps absolute bottom-10 left-0 right-0 mx-10">
               <div className="backdrop-blur-sm bg-white/30 w-full h-24 rounded-xl">
               <div className='flex items-center justify-between mt-3 mx-16'>
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
-                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
+                   <img onClick={() => router.push("/mobile/call")} className='w-16 filter hover:brightness-95 cursor-pointer' src="/img/call-logo.png" alt="app" />
+                   <img onClick={() => router.push('/mobile/chat')} className='w-16 filter hover:brightness-95 cursor-pointer' src="/img/sms.png" alt="app" />
+                   <img onClick={() => router.push('/instagram')} className='w-14 filter hover:brightness-95 cursor-pointer' src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png" alt="app" />
+                   <img onClick={() => router.push('/whatsapp')} className='w-16 filter hover:brightness-95 cursor-pointer' src="https://www.freepnglogos.com/uploads/whatsapp-icon-png-image-28.png" alt="app" />
+                   <img className='w-14 filter hover:brightness-95 cursor-pointer' src="/img/pinterest.png" alt="app" />
+                   <img className='w-16 filter hover:brightness-95 cursor-pointer' src="/img/vscode.png" alt="app" />
+                   <img className='w-14 filter hover:brightness-95 cursor-pointer' src="https://cdn.iconscout.com/icon/free/png-256/apple-photos-493155.png" alt="app" />
                </div>
               </div>
           </div>

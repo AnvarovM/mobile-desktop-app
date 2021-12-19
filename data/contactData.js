@@ -16,7 +16,7 @@ export const contactData = [
         id: 'd'
     },
     {
-        username: 'Mirziyoyev',
+        username: 'Munisa',
         id: 'm'
     },
     {

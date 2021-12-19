@@ -10,7 +10,7 @@ export const callData = [
         time: '5:40 AM'
     },
     {
-        username: 'Mirziyoyev',
+        username: 'Munisa',
         phone: '+99899-277-99-99',
         time: 'Yesterday'
     },

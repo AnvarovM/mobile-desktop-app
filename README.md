@@ -12,7 +12,7 @@ npm install
 yarn add
 
 npm run dev 
-
+# or
 yarn run dev 
 
 ```

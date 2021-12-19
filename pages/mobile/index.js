@@ -243,7 +243,7 @@ const MobileApps = () => {
             </div>
             <div className="relative w-12 cursor-pointer">
               <img onClick={() => router.push('/mobile/chat')}
-                className=" rounded-xl"
+                className="rounded-xl"
                 src="/img/sms.png"
                 alt=""
               />
