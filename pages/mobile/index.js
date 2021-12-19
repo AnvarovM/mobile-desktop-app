@@ -248,7 +248,7 @@ const MobileApps = () => {
                 alt=""
               />
               <span className="absolute top-0 right-0 h-5 w-5 text-white flex items-center justify-center text-xs rounded-lg bg-[#f72e22]">
-                8
+                2
               </span>
             </div>
             <div onClick={setting} className="relative w-14">

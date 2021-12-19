@@ -14,13 +14,15 @@ export default function Home() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 4000);
   }, []);
+
 
   return (
     <div>
       <Head>
-        <title>Appleee</title>
+        <title>Apple products</title>
+        <link rel="shortcut icon" href="/img/apple.png" />
       </Head>
 
 
@@ -28,17 +30,17 @@ export default function Home() {
       <Loading />
     ) : (
       <div>
-      <div className="hidden lg:block">
-        <Desktop />
-      </div>
+        <div className="hidden lg:block">
+          <Desktop />
+        </div>
 
-      <div className="hidden sm:block lg:hidden">
-        <Tablet />
-      </div>
+        <div className="hidden sm:block lg:hidden">
+          <Tablet />
+        </div>
 
-      <div className="block sm:hidden">
-        <Mobile />
-      </div>
+        <div className="block sm:hidden">
+          <Mobile />
+        </div>
     </div>
     )}
     
