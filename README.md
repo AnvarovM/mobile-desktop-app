@@ -11,7 +11,7 @@
 </a>
 
 <a target="_blank" href=https://codeforces.com/profile/blue_edge>
-  <img src=https://sta.codeforces.com/s/62449/favicon-32x32.png width="25" height="25" />
+  <img src=https://cdn-icons-png.flaticon.com/512/174/174857.png width="25" height="25" />
   &nbsp;
 </a>
 
