@@ -48,15 +48,3 @@
 <img src=https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png alt=linux width="30" height="30"/>
 </p>
 
-<br><br>
-
-<p align="center">
-  
-![snake](https://raw.githubusercontent.com/blueedgetechno/blueedgetechno/output/github-contribution-grid-snake.svg)
-
-<br>
-<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=blueedgetechno" alt="blueedge"/> </p>  
-
-</p>
-<br>
-</p>
