@@ -10,7 +10,7 @@
 </a>
 
 <a target="_blank" href=https://codeforces.com/profile/blue_edge>
-  <img src=https://cdn-icons-png.flaticon.com/512/174/174857.png width="23" height="23" />
+  <img src=https://cdn-icons-png.flaticon.com/512/174/174857.png width="22" height="22" />
   &nbsp;
 </a>
 
