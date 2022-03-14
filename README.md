@@ -37,7 +37,7 @@
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg alt=sass width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg alt=react width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg alt=nodejs width="30" height="30"/>
-<img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg alt=mongodb width="30" height="30"/>
+<img src=https://img.icons8.com/color/344/typescript.png alt=mongodb width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg alt=express width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg alt=express width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg alt=express width="30" height="30"/>
