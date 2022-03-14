@@ -41,7 +41,7 @@
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg alt=react width="30" height="30"/>
 <img src=https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png alt=nodejs width="30" height="30"/>
 <img src=https://img.icons8.com/color/344/redux.png alt=nodejs width="30" height="30"/>
-<img src=https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-shadow-tal-revivo.png alt=express width="30" height="30"/>
+<img src=https://iconape.com/wp-content/files/qa/371510/svg/371510.svg alt=express width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg alt=express width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg alt=express width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg alt=git width="30" height="30"/>
