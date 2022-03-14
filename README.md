@@ -1,4 +1,4 @@
-<h3 align="center">Hi, Homo sapiens 👋</h3>
+<h3 align="center">Hi, I'm Anvarov Mukhammad 👋</h3>
 
 ## How to use
 
