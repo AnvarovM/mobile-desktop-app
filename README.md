@@ -7,7 +7,6 @@
 <p align="center">
  <a target="_blank" href=https://github.com/blueedgetechno>
   <img src=https://img.shields.io/github/followers/blueedgetechno?label=follow%20me&style=social />
-  &nbsp;
 </a>
 
 <a target="_blank" href=https://codeforces.com/profile/blue_edge>
