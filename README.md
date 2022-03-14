@@ -45,5 +45,5 @@
 <img src=https://user-images.githubusercontent.com/4060187/61057426-4e5a4600-a3c3-11e9-9114-630743e05814.png alt=express width="30" height="30"/>
 <img src=https://sp-ao.shortpixel.ai/client/q_lossy,ret_img,w_240,h_240/https://richcontentdesign.com/wp-content/uploads/2019/10/greensock@2x.png alt=express width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg alt=git width="30" height="30"/>
-<img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg alt=linux width="30" height="30"/>
+<img src=https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png alt=linux width="30" height="30"/>
 </p>
