@@ -47,3 +47,26 @@
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg alt=git width="30" height="30"/>
 <img src=https://user-images.githubusercontent.com/38039349/60953119-d3c6f300-a2fc-11e9-9596-4978e5d52180.png alt=linux width="30" height="30"/>
 </p>
+
+<br><br>
+
+<p align="center">
+
+<img width="500" src="https://metrics.lecoq.io/blueedgetechno" alt="Github Metrics">
+  
+<br>
+
+</p>
+
+<br>
+
+|![](https://github-readme-stats.vercel.app/api?username=blueedgetechno&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=blueedgetechno&layout=compact&theme=tokyonight&langs_count=10)|
+|-|-|
+
+![](https://activity-graph.herokuapp.com/graph?username=blueedgetechno&theme=redical)
+
+![snake](https://raw.githubusercontent.com/blueedgetechno/blueedgetechno/output/github-contribution-grid-snake.svg)
+
+<br>
+<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=blueedgetechno" alt="blueedge"/> </p>  </p>
+<br>
