@@ -9,7 +9,7 @@
   <img src=https://img.shields.io/github/followers/blueedgetechno?label=follow%20me&style=social />
 </a>
 
-<a text-decoration="none" target="_blank" href=https://codeforces.com/profile/blue_edge>
+<a textDecoration="none" target="_blank" href=https://codeforces.com/profile/blue_edge>
   <img src=https://cdn-icons-png.flaticon.com/512/174/174857.png width="22" height="22" />
   &nbsp;
 </a>
