@@ -37,7 +37,7 @@
 <img src=https://img.icons8.com/color/344/typescript.png alt=mongodb width="30" height="30"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg alt=sass width="30" height="30"/>
 <img src=https://img.icons8.com/color/344/bootstrap.png alt=sass width="30" height="30"/>
-<img src=https://iconape.com/wp-content/png_logo_vector/tailwind-css-logo.png alt=sass width="30" margin="0 0 20px 0"/>
+<img src=https://iconape.com/wp-content/png_logo_vector/tailwind-css-logo.png alt=sass width="30" padding="0 0 20px 0"/>
 <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg alt=react width="30" height="30"/>
 <img src=https://img.icons8.com/color/344/redux.png alt=nodejs width="30" height="30"/>
 <img src=https://img.icons8.com/color/344/redux.png alt=nodejs width="30" height="30"/>
