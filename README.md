@@ -11,7 +11,7 @@
 </a>
 
 <a target="_blank" href=https://twitter.com/blueedgetechno>
-  <img height="22" width="22" src=https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png />
+  <img height="22" width="22" src=https://www.freepnglogos.com/uploads/telegram-logo-4.png />
   &nbsp;
 </a>
  
