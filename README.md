@@ -11,7 +11,7 @@
 </a>
 
 <a target="_blank" href=https://twitter.com/blueedgetechno>
-  <img height="22" width="22" src=https://cdn-icons.flaticon.com/png/512/3536/premium/3536661.png?token=exp=1647276109~hmac=ac8554cf9c5e81f9d1d51de9a67036fa />
+  <img height="22" width="22" src=https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png />
   &nbsp;
 </a>
  
